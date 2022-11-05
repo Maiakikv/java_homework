@@ -19,7 +19,5 @@ public class Circle {
     public static void numberOfCircleInstances(){
         System.out.println(count);
     }
-    public void getCount(){
-        System.out.println(count);
-    }
+   
 }
