@@ -21,7 +21,7 @@ public class Circle extends Figure {
 
     @Override
     public void printPackageName() {
-        System.out.println((this.getClass().getPackageName()));
+        System.out.println(this.getClass().getPackageName());
 
     }
 
