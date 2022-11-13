@@ -23,8 +23,8 @@ public class JavaLecture7Runner {
         System.out.println(cir3.getArea());
 
 
-        r.returnDoubleSizedCircle(cir1).printPackageName();
-        r.returnCustomSizedCircle(cir1, 3).printPackageName();
+       cir2.printPackageName();
+       cir3.printPackageName();
 
 
 
