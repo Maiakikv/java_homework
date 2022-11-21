@@ -26,7 +26,7 @@ public class Lecture10Runner {
     }
 
     public static <K, D> AnyPair<Field[], Field[]> getDeclaredFields(K objOne, D objTwo) {
-        return new AnyPair<>(objOne.getClass().getFields(), objTwo.getClass().getFields());
+        return new AnyPair<>(objOne.getClass().getDeclaredFields(), objTwo.getClass().getDeclaredFields());
     }
 
 }
